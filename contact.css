@@ -66,20 +66,20 @@
 
 
 .frm_input {
-    padding-top: 34px;
+    padding-top: 33px;
     box-sizing: border-box;
 }
 
 .name {
-    width: 100%;
+    /* width: 100%; */
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;}
 
 
 .txtFirstname {
-    width: 47%;
-    height: 57px;
+    width: 46.5%;
+    height: 61px;
     border-radius: 15px;
     border: 1px #D9DDFE;
     border-style: solid;
@@ -89,18 +89,18 @@
 
 
 .txtLastname {
-    width: 47%;
-    height: 57px;
+    width: 46.5%;
+    height: 61px;
     border-radius: 15px;
     border: 1px #D9DDFE;
     border-style: solid;
     padding-left: 23px;
-    margin-left: 25px;
+    margin-left: 31px;
     box-sizing: border-box;
 }
 
 .email {
-    padding-top: 41px;
+    padding-top: 39px;
 }
 
 .emlEmail {
@@ -152,12 +152,13 @@
     font-size: 16px;
     font-weight: 600px;
     line-height: 24px;
-    letter-spacing: 2.6px;
+    letter-spacing: 1.8px;
     text-align: center;
     color: #ffffff;
     border-radius: 50px;
     border-style: none;
-    padding-bottom: 3px;
+    padding-bottom: 3px;    
+    font-family: "Poppins", sans-serif;
 }
 
  /* @media (min-width: 1201px) and (max-width: 1400px) {
