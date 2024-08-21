@@ -1,7 +1,15 @@
 .footer{
-    max-width: 1600px;
+    /* max-width: 1600px; */
     position: relative;
     box-sizing: border-box;
+}
+
+.container_footer{
+    max-width: 1600px;
+}
+
+.social_contact{
+    max-width: 1600px;
 }
 
 .container_footer{
@@ -151,20 +159,17 @@ li::before {
 }
 
 .btn_totop{
-    width: 100%;
+    width: 95.5%;
     display: flex; 
     justify-content: flex-end; 
     position: fixed;
-    bottom: 170px;
-
+    bottom: 191px;
 }
 
 .totop{
     width: 36px;
     height: 36px;
     background-color: palevioletred;
-    margin-right: 65px;
-    margin-top: 32px;
     border-radius: 9px;
 }
 
