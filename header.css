@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+ul {
+    padding: 0;
+
+}
+
+.header {
+    max-width: 1600px;
+    width: 100%;
+}
+
+
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 40px 145px;
+    align-items: flex-start;
+    justify-content:space-between ;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    block-size: 63px;
+
+    margin-top: -2px;
+    margin-right: 6px;
+}
+
+
+
+
+
+.ul_header {
+    display: flex;
+    padding: 0;
+    padding-block-start: 2px;
+    margin: 0;
+    list-style: none;
+}
+.header-left-part2 .main_menu .ul_header{
+    margin-top: 270px;
+    background-color: #FF64AE;
+    flex-direction: column ;
+
+}
+.li_header {
+    list-style: none;
+}
+
+.li_header1{
+    display: none;
+
+}
+
+.li_header a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1.6px;
+    color: #8B8B8B;
+    display: inline-block;
+    padding: 14.5px !important;
+}
+
+.contact_button{
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+
+
+.btnContact {
+    inline-size: 158px;
+    block-size: 52px;
+    border-radius: 50px;
+    background-color: #FF64AE;
+    border: none;
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 1.6px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    inline-size: 35px;
+    block-size: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.hamburger {
+    display: none;
+}
+
+

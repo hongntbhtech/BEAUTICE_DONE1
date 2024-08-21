@@ -1,0 +1,251 @@
+
+.contact {
+    max-width: 1600px;
+    width: 100%;
+    margin-bottom: -130px;
+}
+
+.background_bubble_1{
+    background-image: url("Image/Background_Bubble_1.png");
+    background-repeat: no-repeat;
+    background-size: 95% 100%;
+    background-position-y: -10%;
+    width: 100%;
+}
+
+
+.contact_main {
+    display: flex;
+    justify-content: space-between; 
+    padding: 199px 150px;
+
+}
+
+
+.contact_left {
+    padding-top: 262px;
+}
+
+.contact_right {
+    width: 100%;
+    padding-left:  101px;
+}
+
+.title_contact h2 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #ff64ae;
+}
+
+.title_contact h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45px;
+    color: #091156;
+    margin-top: -2px
+}
+
+.contact_right p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #8b8b8b;
+    letter-spacing: 1.6px;
+    margin-top: -5px;
+}
+
+::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1.6px;
+    color: #C5C5C5;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.frm_input {
+    padding-top: 34px;
+    box-sizing: border-box;
+}
+
+.name {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;}
+
+
+.txtFirstname {
+    width: 47%;
+    height: 57px;
+    border-radius: 15px;
+    border: 1px #D9DDFE;
+    border-style: solid;
+    padding-left: 23px;
+    box-sizing: border-box;
+}
+
+
+.txtLastname {
+    width: 47%;
+    height: 57px;
+    border-radius: 15px;
+    border: 1px #D9DDFE;
+    border-style: solid;
+    padding-left: 23px;
+    margin-left: 25px;
+    box-sizing: border-box;
+}
+
+.email {
+    padding-top: 41px;
+}
+
+.emlEmail {
+    width: 95%;
+    height: 57px;
+    border-radius: 15px;
+    border: 1px #D9DDFE;
+    border-style: solid;
+    padding-left: 23px;
+
+}
+
+.sub {
+    padding-top: 39px;
+}
+
+.txtSub {
+    width: 95%;
+    height: 57px;
+    border-radius: 15px;
+    border: 1px #D9DDFE;
+    border-style: solid;
+    padding-left: 23px;
+
+}
+
+.inquiry {
+    padding-top: 39px;
+}
+
+.txtIn {
+    width: 100%;
+    height: 237px;
+    border-radius: 15px;
+    border: 1px #D9DDFE;
+    border-style: solid;
+    box-sizing: border-box;
+    padding-top: 24px;
+    padding-left: 23px;}
+
+.button_send {
+    padding-top: 51px;
+}
+
+.btnSend {
+    width: 48%;
+    height: 58px;
+    background-color: #ff64ae;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 24px;
+    letter-spacing: 2.6px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 50px;
+    border-style: none;
+    padding-bottom: 3px;
+}
+
+ /* @media (min-width: 1201px) and (max-width: 1400px) {
+    .contact_right {
+        width: 100%;
+        padding: 0;
+    }
+
+    .name {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        flex-wrap: nowrap; 
+        gap: 20px;
+        overflow: hidden;
+    }
+
+    .txtFirstname {
+        width: 45%;
+
+    }
+    
+    
+    .txtLastname {
+        width: 45%;
+    }
+ }
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .contact_main {
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+        width: 100%;
+    }
+    .contact_left{
+        padding: 0;
+    }
+
+    .contact_right{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .contact_main {
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+        width: 100%;
+    }
+    .contact_left{
+        padding: 0;
+    }
+
+    .contact_right{
+        padding: 0;
+    }
+
+    .name {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        flex-wrap: nowrap; 
+        gap: 20px;
+        overflow: hidden;
+    }
+
+    .txtFirstname {
+        width: 40%;}
+    
+    
+    .txtLastname {
+        width: 40%;
+
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    .contact{
+        padding:0 145px;
+        text-align: center;
+        margin: 0 auto;
+    }
+} */
